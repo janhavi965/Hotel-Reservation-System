@@ -45,11 +45,11 @@ public static void main(String[] args) {
 
 // Initialize some rooms
 private static void initializeRooms() {
-    rooms.add(new Room(101, "Standard", 100.00, true));
-    rooms.add(new Room(102, "Deluxe", 150.00, true));
-    rooms.add(new Room(103, "Suite", 250.00, true));
-    rooms.add(new Room(104, "Standard", 100.00, true));
-    rooms.add(new Room(105, "Deluxe", 150.00, true));
+    rooms.add(new Room(201, "Standard", 1000.00, true));
+    rooms.add(new Room(202, "Deluxe", 1500.00, true));
+    rooms.add(new Room(203, "Suite", 2500.00, true));
+    rooms.add(new Room(504, "Standard", 1000.00, true));
+    rooms.add(new Room(105, "Deluxe", 1500.00, true));
 }
 
 // Search for available rooms based on type
